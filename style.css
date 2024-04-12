@@ -300,39 +300,135 @@
 }
 
 
+.main_section{
+    background-color: #e7e8e9;
+    height: 90vh;
+}
+
+
 .Featured_Stars{
     width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    background: #e7e8e9;
-}
-
-.Featured_Stars1{
-    width: 90%;
-    height: 50px;
-    padding-top: 30px;
-}
-
-.heading_5{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 25px;
+}
+
+.Featured_Stars1{
     font-size: 18px;
     font-weight: 500;
     color: #575757;
 }
 
 
-.line2{
+.line_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line_3{
+    width: 25px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+.Featured_Stars2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.stars{
+    margin-top: 30px;
+    width: 70%;
+    display: flex;
+    gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.line_2{
-    width: 25px;
-    padding-top: 10px;
-    padding-bottom: 40px;
+.beyonce{
+    width: 95px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.para_5{
+    max-width: 300px;
+}
+
+
+.heading_5{
+    font-weight: 700;
+    font-size: 12.5px;
+    color: #575757;
+}
+
+.heading_6{
+    font-size: 10px;
+    font-weight: 400;
+    color: #ec5242;
+    margin-top: 10px;
+    background: url(underline-grey.png);
+    background-position: left bottom;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding-bottom: 7px;
+    margin-bottom: 6px;
+}
+
+
+.heading_7{
+    font-size: 9px;
+    font-weight: 600;
+    color: #575757;
+}
+
+
+.main_footer{
+    width: 100%;
+    height: 24vh;
+    display: flex;
+}
+
+.footer{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_img{
+    margin-left: 50px;
+}
+
+
+.para_6{
+    width: 50%;
+}
+
+.heading_8{
+    margin-top: 30px;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.heading_9{
+    margin-top: 10px;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.heading_10{
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 12.5px;
+    color: #ec5242;
 }
